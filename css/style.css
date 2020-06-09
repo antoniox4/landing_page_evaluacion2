@@ -151,13 +151,30 @@ footer p {
   }
 
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: #4a736b;
+    .Largos p {
+        font-size: 1rem;
+    }
+    .Largos-foto {
+        width: 100px;
+        height: 100px;
+        padding: 20px 100px;
+    }
+    Footer {
+        width: 300px;
+    }
+    footer.Footer {
+        width: 300px;
     }
 }
 
 @media only screen and (max-width: 1366px) {
     .CajaPrincipal {
         height: 500px;
+    }
+    .Largos-foto {
+        padding: 20px 620px;
+    }
+    footer {
+        padding: 1rem 40rem;
     }
 }
