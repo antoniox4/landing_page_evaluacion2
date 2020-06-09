@@ -136,7 +136,7 @@ button:hover {
 footer {
     width: 100%;
     text-align: justify;
-    background-color: #9F6F10;
+    background-color: #FFC700;
     padding: 1rem 32rem;
 }
 
@@ -157,7 +157,7 @@ footer p {
 }
 
 @media only screen and (max-width: 1366px) {
-    body {
-        background-color: ;
+    .CajaPrincipal {
+        height: 500px;
     }
 }
